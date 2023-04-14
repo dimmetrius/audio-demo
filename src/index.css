@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.App {
+  padding: 30px;
+}
+
+.wordPad {
+  margin-right: 0.15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  cursor: pointer;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  color: #2f374d;
+}
+
+.punctuationPad {
+  margin-right: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  cursor: pointer;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+}
